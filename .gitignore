@@ -1,0 +1,12 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.sqlite
+chroma_index/
+logs.csv
+learning_buffer.jsonl
+.DS_Store
+.ipynb_checkpoints/

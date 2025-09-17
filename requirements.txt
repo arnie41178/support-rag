@@ -1,0 +1,7 @@
+chromadb==0.5.5
+sentence-transformers==3.0.1
+numpy==1.26.4
+pandas==2.2.2
+python-dotenv==1.0.1
+openai==1.44.0        # only if using OpenAI embeddings / generation
+tqdm==4.66.4
