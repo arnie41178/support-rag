@@ -5,3 +5,4 @@ pandas==2.2.2
 python-dotenv==1.0.1
 openai==1.44.0        # only if using OpenAI embeddings / generation
 tqdm==4.66.4
+pysqlite3-binary==0.5.3
