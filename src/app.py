@@ -1,4 +1,14 @@
 # app.py
+
+try:
+    import sys, pysqlite3
+    sys.modules["sqlite3"] = pysqlite3  # ensure sqlite3 points to the shim
+except Exception as e:
+    print("SQLite shim load failed:", e)
+
+import sqlite3
+print("SQLite runtime in app.py:", sqlite3.sqlite_version)
+
 import os, time, csv, json, datetime as dt
 import streamlit as st
 from retrieve_answer import retrieve, answer_with_rag
